@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Coin Flip</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+<! ––header display text->
+<p>
+<h1>
+<div class="header">
+  <h1>
+Click Heads or Tails to flip the coin!</h1>
+  <p>Try to get a big score!!</p>
+			<p>________________</p>
+<! ––end of the header text->
+
+
+<! ––this is the score and click display->
+  		<div>score: <span id="score"></span></div>
+			<div>remaining clicks: <span id="clicks"></span></div>
+<! ––end of score and click display->
+
+
+<! ––Start to the section to choose heads or tails->
+</div>
+		<div class="choices">
+			<div class="choice" id="h">
+				<button id="click_head" type="button"><img src="img/heads.jpg" alt="heads.jpg" width="200" height="200"/></button>
+</div>
+			<div class="choice" id="s">
+				<button id="click_tail" type="button"><img src="img/tails.jpg" alt="tails.jpg" width="200" height="200"/></button>
+			</div>
+		</div>
+<! ––end of the choices section ->
+<hr>
+
+
+<! –– start of the results section->
+</p>
+<h1>
+	<div class="Results">
+		<div>The coin was: <span id="result"></span></div>
+		<img id="imgh" src="img/heads.jpg" alt="heads.jpg" width="100" height="100"/>
+		<img id="imgt" src="img/tails.jpg" alt="tails.jpg" width="100" height="100"/>
+	</div>
+</h1>
+<! ––end of the results section ->
+
+<! ––start of the reset function ->
+<h2>
+<div class="reset">
+<p>Restart!</p>
+<button type="button" id="reset"><img  src="img/reset.jpg" alt="reset.jpg" width="80" height="80"/></button>
+</div>
+</h2>
+<! ––end of the restart function->
+
+		<script src="app.js" charset="utf-8"></script>
+	</body>
+</html>
