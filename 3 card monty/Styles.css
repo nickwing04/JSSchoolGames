@@ -1,0 +1,72 @@
+
+
+body {
+	background-image: linear-gradient( 90deg, #5b8274, #774db3);
+	background-repeat: repeat;
+	background-size: contain, cover;
+	margin: 1rem;
+}
+h1.title {
+	font-size: 80px;
+	color: White;
+	text-align: center;
+	margin: 30px;
+	text-shadow: 2px 2px #999;
+}
+h1.text-reveal{
+	font-size: 80px;
+	color: white;
+	margin: 50vh;
+}
+h2.score {
+	font-size: 50px;
+	color: White;
+	text-align: center;
+	margin: 30px;
+
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  margin: 0 0 1rem 0;
+	position: center;
+	height: 100%;
+	text-align: center;
+}
+.grid > div {
+  height: 300px;
+  min-width: 1px;
+}
+
+
+.bottom {
+	text-align: center;
+	padding: 30px;
+}
+
+
+.btn {
+	margin-top: 30px;
+	margin-right: 100px;
+	background-color: gray;
+	border-color: black;
+	color: black;
+	font-size: 30px;
+	align-items: center;
+}
+
+
+#hidden {
+  content: " ";
+  z-index: 10;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
